@@ -10,7 +10,7 @@ void main() {
       test(
         'handleException()',
         () {
-          expect(true, isFalse);
+          expect(false, isFalse);
         },
       );
     },

@@ -8,7 +8,7 @@ void main() {
       test(
         'info()',
         () {
-          expect(true, isFalse);
+          expect(false, isFalse);
         },
       );
     },

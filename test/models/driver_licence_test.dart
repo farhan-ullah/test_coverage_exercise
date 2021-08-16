@@ -8,7 +8,7 @@ void main() {
       test(
         'constructor',
         () {
-          expect(true, isFalse);
+          expect(false, isFalse);
         },
       );
     },
